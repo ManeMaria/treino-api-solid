@@ -1,0 +1,25 @@
+
+    -- AS EXPLICAÇÕES ESTÃO DE ACORDO COM A ORDEM DA CRIAÇÃO DAS PASTAS -- 
+
+** A camada de infra ou a pasta infra é a pasta que conterá os arquivos 
+    que interagem com qualquer coisa fora do código
+
+** A pasta entities
+    Ela está ligada para coisas além de models, models, por sua vez, dá a ideia de 
+    tabelas em bd
+
+** A pasta repositories
+    Nela conterá as classes que farão conexão com o bd
+
+** A pasta  usecase
+    são as ações que os usuários podem fazer na api
+        - no método do curso, o prof irá centralizar os controllers na pasta 
+        controllers
+        - no método do Diego, ele está usando o padrão package by feature,
+        onde as pastas são organizadas por funcionalidades
+
+** A pasta provider
+
+    é uma pasta para fazer comunicação com outras apis de fatos: axios..
+
+    

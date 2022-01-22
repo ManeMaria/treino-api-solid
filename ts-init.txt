@@ -1,0 +1,25 @@
+types node
+    yarn add typescript ts-node-dev -D
+
+após 
+    yarn tsc --init
+
+config básica tsconfig
+
+    {
+        "compilerOptions": {
+            /* Language and Environment */
+            "target": "es2017",
+            /* Modules */
+            "module": "commonjs",
+            "esModuleInterop": true,
+            "allowJs": true,
+            "forceConsistentCasingInFileNames": true,
+            /* Type Checking */
+            "strict": true,
+            "skipLibCheck": true
+        },
+        "include": [
+            "src/**/*.ts"
+        ], "exclude": ["node_modules"]
+    }   
